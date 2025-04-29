@@ -4,7 +4,7 @@ import numpy, sys
 
 #Load the data
 
-filepath = 'SMSSpamCollection.csv'
+filepath = 'CaoBảoKhương_ITDSIU22176_LAB67\SMSSpamCollection.csv'
 df = pd.read_csv(filepath, sep='\t', header=None, names=['Label', 'SMS'])
 print(df.shape)
 print("------------------BEFORE CLEANING DATA-------------------------")
